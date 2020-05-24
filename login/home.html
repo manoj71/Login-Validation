@@ -1,0 +1,18 @@
+<!-- username should be in the form="user@gmail.com" 
+  you can create a database with two field username and password and check if the user is valid
+  i have created database userdb and table="user" and used it in my code.
+  you can create the database with same name or can do changes in code and test it -->
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<form class="box" method="post" action="login.php" onsubmit="return validation()">
+<h1>Login</h1>
+<input type="text" name="username" placeholder="username" class="in" required>
+<input type="password" name="password" placeholder="password" class="in" required>
+<input type="submit" value="Login" class="lg">
+</form>
+</body>
+</html>
